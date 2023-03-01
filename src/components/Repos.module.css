@@ -1,0 +1,30 @@
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.list {
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+}
+
+.listItem {
+    border: 1px solid var(--corSecundaria);
+    list-style: none;
+    text-align: center;
+}
+
+.link{
+    background-color: var(--corPrincipal);
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 8px;
+    padding: 8px;
+    border-radius: 50px;
+    color: var(--corSecundaria);
+}
